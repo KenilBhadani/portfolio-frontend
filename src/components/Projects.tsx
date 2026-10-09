@@ -6,18 +6,13 @@ import { FaGithub } from "react-icons/fa";
 
 const projects = [
   {
-    title: "Phishing URL Detection",
-    description: "A machine learning system that detects whether a URL is phishing or legitimate using URL-based features.",
-    problem: "Identifying malicious links before users click them by analyzing structural URL attributes.",
-    tech: ["Python", "Pandas", "Scikit-learn", "Random Forest"],
-    metrics: [
-      { label: "Accuracy", value: "99.80%" },
-      { label: "Precision", value: "99.70%" },
-      { label: "Recall", value: "99.95%" },
-      { label: "F1 Score", value: "99.82%" },
-    ],
+    title: "Hotel Management System",
+    description: "A comprehensive hotel management platform featuring AI chatbot integration for seamless customer service and booking inquiries.",
+    problem: "Automating guest interactions and streamlining hotel operations with an intelligent assistant.",
+    tech: ["React", "Next.js", "AI Chatbot", "Web Development"],
+    metrics: [],
     github: "https://github.com",
-    demo: null,
+    demo: "https://hotel-frontend-sage-one.vercel.app/",
     gradient: "from-blue-600/20 to-cyan-600/20"
   },
   {
